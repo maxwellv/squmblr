@@ -4,6 +4,9 @@ squmblr
 Meme Blogging / Nerd Tumblr
 
 
+[![Code Climate](https://codeclimate.com/github/maxwellv/squmblr.png)](https://codeclimate.com/github/maxwellv/squmblr)
+[![Build Status](https://travis-ci.org/maxwellv/squmblr.svg?branch=master)](https://travis-ci.org/maxwellv/squmblr)
+
 First PR Features:
 =========
  1. Captcha [Steven + Sam]
