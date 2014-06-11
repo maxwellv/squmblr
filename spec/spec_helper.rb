@@ -5,9 +5,9 @@ CodeClimate::TestReporter.start
 require 'simplecov'
 
 
-formatters =  [SimpleCov::Formatter::HTMLFormatter]
+formatters = [SimpleCov::Formatter::HTMLFormatter]
 formatters << CodeClimate::TestReporter::Formatter if ENV['CODECLIMATE_REPO_TOKEN']
-SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter [*formatters]
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[*formatters]
 SimpleCov.start
 
 require File.expand_path("../../config/environment", __FILE__)
